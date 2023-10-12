@@ -3,8 +3,7 @@
 import cv2
 import mediapipe as mp
 # from main import data, image, results
-# from screeninfo import get_monitors
-from multiprocessing import Process, Queue
+# from screeninfo import get_monitorsqq
 
 class HandTracker:
     def __init__(self):
@@ -15,7 +14,6 @@ class HandTracker:
         self.cap = cv2.VideoCapture(0)
 
     def read_frame(self):
-        data,image= self.cap.read()
         return self.cap.read()
 
     def process_frame(self, image):

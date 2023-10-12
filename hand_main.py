@@ -1,4 +1,4 @@
-# main.py
+# hand-main.py
 
 import cv2
 from hand_tracker import HandTracker

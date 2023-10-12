@@ -9,3 +9,5 @@ def call_for_voice():
         print("Start Speaking")
         voice.listen(r)
         
+# if __name__ == "__main__":
+#     call_for_voice()
